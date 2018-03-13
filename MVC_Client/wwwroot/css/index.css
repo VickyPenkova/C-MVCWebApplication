@@ -1,0 +1,47 @@
+﻿body {
+	margin:0;
+	padding:0;
+}
+
+.table-data {
+	margin:0 auto;
+	text-align:center;
+}
+
+.title-font {
+	font-size: 1.5rem;
+	font-weight: bolder;
+}
+
+.fields-borders {
+	border: 1px solid #1a1a1a;
+}
+
+.right-border {
+	border-right: 1px solid #1a1a1a;
+}
+
+.mark-pointed:hover {
+	background-color: darkred;
+	color: white;
+	cursor: context-menu;
+}
+
+.orders-title {
+	background-color: darkred;
+	color: white;
+	font-size: 1.5rem;
+	font-weight: bolder;
+}
+
+.go-back-button {
+	background-color: #b8b894;
+	font-size: 1.5rem;
+}
+
+.go-back-button:hover {
+	background-color: #2e2e1f;
+	color: white;
+	font-weight: bolder;
+	cursor: context-menu;
+}

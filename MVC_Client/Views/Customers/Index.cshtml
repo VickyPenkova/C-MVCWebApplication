@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Clients";
+}
+
+<h2>List of customers from Web api</h2>
+
+<head>
+	<link rel="stylesheet" href="~/css/index.css">
+</head>
+<body>
+	<div class="container table-data">
+		<div class="row fields-borders">
+			<div class="col-sm-4 title-font right-border">
+				<span>Id</span>
+			</div>
+			<div class="col-sm-4 title-font right-border">
+				<span>Username</span>
+			</div>
+			<div class="col-sm-4 title-font">
+				<span>Number of products</span>
+			</div>
+		</div>
+
+		@foreach (var item in @ViewBag.list)
+		{
+			<div class="row fields-borders mark-pointed" onclick="showSingleUserPage(@item.Id, '@item.Name')">
+				<div class="col-sm-4 right-border">
+					@item.Id
+				</div>
+				<div class="col-sm-4 right-border">
+					@item.Name
+				</div>
+				<div class="col-sm-4">
+					@item.NumberProducts
+				</div>
+			</div>
+		}
+	</div>
+	<div id="searcher">
+		<h2>Search by Name</h2>
+		<input type="text" id="cusId" onkeyup="showUsers()" />
+		<p id="customer" />
+	</div>
+
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+	
+	<script src="~/js/index.js?1"></script>
+</body>

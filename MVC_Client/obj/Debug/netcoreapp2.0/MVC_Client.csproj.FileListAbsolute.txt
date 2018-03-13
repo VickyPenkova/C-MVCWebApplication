@@ -1,0 +1,11 @@
+C:\Users\Viki\Desktop\Solution\MVC_Client\bin\Debug\netcoreapp2.0\MVC_Client.deps.json
+C:\Users\Viki\Desktop\Solution\MVC_Client\bin\Debug\netcoreapp2.0\MVC_Client.runtimeconfig.json
+C:\Users\Viki\Desktop\Solution\MVC_Client\bin\Debug\netcoreapp2.0\MVC_Client.runtimeconfig.dev.json
+C:\Users\Viki\Desktop\Solution\MVC_Client\bin\Debug\netcoreapp2.0\MVC_Client.dll
+C:\Users\Viki\Desktop\Solution\MVC_Client\bin\Debug\netcoreapp2.0\MVC_Client.pdb
+C:\Users\Viki\Desktop\Solution\MVC_Client\obj\Debug\netcoreapp2.0\MVC_Client.csprojResolveAssemblyReference.cache
+C:\Users\Viki\Desktop\Solution\MVC_Client\obj\Debug\netcoreapp2.0\MVC_Client.csproj.CoreCompileInputs.cache
+C:\Users\Viki\Desktop\Solution\MVC_Client\obj\Debug\netcoreapp2.0\MVC_Client.AssemblyInfoInputs.cache
+C:\Users\Viki\Desktop\Solution\MVC_Client\obj\Debug\netcoreapp2.0\MVC_Client.AssemblyInfo.cs
+C:\Users\Viki\Desktop\Solution\MVC_Client\obj\Debug\netcoreapp2.0\MVC_Client.dll
+C:\Users\Viki\Desktop\Solution\MVC_Client\obj\Debug\netcoreapp2.0\MVC_Client.pdb
